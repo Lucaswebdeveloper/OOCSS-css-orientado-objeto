@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso OOCSS</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+    <div class="home">
+    <h1>BENEFÍCIOS DE OOCSS</h1>
+
+    
+        
+        <ul class="lista">
+            <li>Código menor</li>
+            <li>Recusável</li>
+            <li>Escalável</li>
+            <li>Manutenível</li>
+        </ul>
+   
+
+    <strong>EM OOCSS, O QUE É UM "OBJETO"?</strong>
+    <p>- Qualquer padão visual que se repete e3 que pode ser transformado em um snippet independente</p>
+    <strong>OS 2 PRINCIPIOS DE OOCSS</strong>
+    <P>1. Separar estrutura de visual (skin)</P>
+    <dl>
+        <dt>-Estruturas (como as coisas são expostas)</dt>
+        <dd>- dimenções (widht & height)</dd>
+        <dd>- margin e padding</dd>
+        <dd>- overflow</dd>
+        <dd>- etc</dd><br>
+        <dt>-Visual (como as coisas se parecem)</dt>
+        <dd>- cores</dd>
+        <dd>- fontes</dd>
+        <dd>- sombras</dd>
+        <dd>- degadre</dd>
+        <dd>- etc.</dd>
+      </dl>
+
+    </div>
+    <div class="exercicios">
+        <h3>1. Princípio OOCSS</h3>
+        <button class="button button-skin">Button</button>
+        <button class="button button-skin button-secondary">Secondary</button>
+
+    </div>
+    <div>
+        <h3>2. Pricípio OOCSS: Separar container e conteúdo</h3>
+        <strong>MEDIA OBJECT:</strong>
+        <dl>
+            <dt>1 imagem</dt>
+            <dd>-Tamanho variável</dd>
+            <dt>1 bloco de conteúdo (texto, listas, grids, outros Media, etc</dt>
+            <dd>Tamanho variável</dd>
+            <dt>Largura geral variável</dt>
+
+        </dl>
+    </div>
+
+    <div>
+        <!---Classico--->
+        <article class="media media-skin">
+            <img class="media-figure" src="" alt="">
+            <div class="media-body">
+                <p>Lorem Ipsum is simply dummy text of the printing and
+                     typesetting industry. Lorem Ipsum has been the industry's 
+                     standard dummy text ever since the 1500s, when an unknown printer
+                      took a galley of type and scrambled it to make a type specimen book.
+                       It has survived not only five centuries, but also the leap into electronic 
+                       typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, 
+                        and more recently with desktop publishing software like Aldus
+                         PageMaker including versions of Lorem Ipsum.
+                </p>
+
+            </div>
+
+        </article>
+    </div>
+    
+
+    
+</body>
+</html>
